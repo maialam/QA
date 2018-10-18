@@ -1,0 +1,95 @@
+package Work.BlackJack;
+
+public class Blackjack {
+	
+	public int valueA;
+	public int valueB;
+	public int valueC;
+	
+	public int valueD;
+	public int valueE;
+	public int valueF;
+	
+	
+	public Blackjack(int valueA, int valueB, int valueD, int valueE) {
+		
+		this.valueA = valueA;
+		this.valueB = valueB;
+		this.valueC = valueA + valueB;
+		
+		this.valueD = valueD;
+		this.valueE = valueE;
+		this.valueF = valueD + valueE;
+		
+		
+	}
+	
+
+	
+	public String play() {
+		
+		
+		if (valueC > 0 && valueF > 0) {
+			
+			if (valueC == 21 || valueF == 21) {
+				
+				if (valueC == 21 && valueF == 21) {
+					
+					System.out.println("Congratulations, both players have won with a blackjack!");
+					
+				} else if (valueC == 21) {
+					
+					System.out.println("Congratulations Player A, you have won with a blackjack!");
+					
+				} else if (valueF == 21) {
+					
+					System.out.println("Congratulations Player B, you have won with a blackjack!");
+
+				}
+					
+			} 
+			
+			
+			else if (valueC <= 21 && valueF <= 21) {
+				
+					if (valueC > valueF) {
+						
+						System.out.println("Player A wins with " + this.valueC);
+						
+					} else if (valueC == valueF) {
+						
+						System.out.println("It's a draw.");
+	
+					} return "Player B wins with " + this.valueF;
+				
+				
+			}	
+			
+			
+			else if (valueC > 21 || valueF > 21) {
+				
+				if (valueC > 21 && valueF > 21) {
+					
+					System.out.println("Both players are bust");
+
+					
+				} else if (valueC > 21) {
+				
+					System.out.println("Player A is bust, Player B wins with " + this.valueF);
+				
+				} 	else if (valueF > 21) {
+				
+					System.out.println("Player B is bust, Player A wins with " + this.valueC);
+				}
+				
+			}
+			
+			
+		} return "Please enter digits between 1 and 11.";
+		
+		
+	}
+	
+	
+
+}

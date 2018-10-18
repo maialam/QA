@@ -1,0 +1,17 @@
+package Work.BlackJack;
+
+public class BlackjackRunner {
+	
+	public static void main (String[] args) {
+		
+		Blackjack roundOne = new Blackjack(5,1,2,10);
+		
+
+		
+		roundOne.play();
+
+		
+	}
+
+}
+ 

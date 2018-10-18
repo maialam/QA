@@ -1,0 +1,62 @@
+package Work.Garage;
+
+import Work.Garage.Car;
+
+public class Runner {
+	
+	public static void main (String[] args) {
+
+		
+		
+		//manufacturer, wheels, colour, doors, mileage, pedals, modified, damaged
+		Car c1 = new Car("Ford", 4, "Black", 5, 12000, 3, false, true);
+		Car c2 = new Car("Mercedes", 4, "White", 4, 35000, 2, true, false);
+		Car c3 = new Car("Nissan", 3, "Navy Blue", 3, 176000, 3, true, true );
+		
+		
+		//manufacturer, wheels, colour, doors, sail, engines, modified, damaged
+		Boat b1 = new Boat("Hyundai", 3, "White", 1, true, 2, true, false);
+		Boat b2 = new Boat("Marine", 3, "Red", 2, false, 3, true, false);
+		Boat b3 = new Boat("Galeon", 3, "White & Blue", 2, false, 1, false, true);
+
+		
+		//manufacturer, wheels, colour, doors, seats, commercial, modified, damaged
+		Plane p1 = new Plane("BAE", 3, "Blue", 4, 600, "Yes", false, false);
+		
+
+
+		
+
+		
+		
+		
+		Garage newGarage = new Garage();
+		
+		newGarage.setVehicle(p1);
+		
+		newGarage.setVehicle(b1);
+		newGarage.setVehicle(b2);
+		newGarage.setVehicle(b3);
+		
+		newGarage.setVehicle(c1);
+		newGarage.setVehicle(c2);
+		newGarage.setVehicle(c3);
+
+
+		
+		
+		
+		System.out.println(newGarage.getVehicle("Ford"));
+		
+
+
+
+		
+		
+		}
+		
+		
+	
+
+}
+	

@@ -1,0 +1,13 @@
+package Work.BlackJack;
+
+public class blackjackRunner {
+
+	public static void main (String[] args) {
+	
+		Blackjack cardA = new Blackjack(10);
+		
+		
+	}
+
+	
+}
