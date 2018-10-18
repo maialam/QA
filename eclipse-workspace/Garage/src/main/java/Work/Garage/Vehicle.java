@@ -22,6 +22,8 @@ public abstract class Vehicle {
 		this.modified = modified;
 		this.damaged = damaged;
 	
+		
+		
 	}
 	
 	

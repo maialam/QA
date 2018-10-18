@@ -1,0 +1,18 @@
+package Work.Library;
+
+public class People extends LibraryPeople {
+	
+	private String userName;
+	private int userID;
+	private String userAddress;
+	
+	
+	public People(String userName, int userID, String userAddress, String registerPerson,)
+	
+	
+	public String registerPerson;
+	public boolean deletePerson;
+	public String updatePerson;
+	
+	
+}

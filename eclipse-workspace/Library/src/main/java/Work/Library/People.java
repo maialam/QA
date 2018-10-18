@@ -1,0 +1,25 @@
+package Work.Library;
+
+public class People extends LibraryPeople {
+	
+	private String userName;
+	private int userID;
+	private String userAddress;
+	
+	
+	public People(String userName, int userID, String userAddress, String registerUser, boolean deleteUser, String updateUser) {
+		super(registerUser, deleteUser, updateUser);
+		
+		this.userAddress = userName;
+		this.userID = userID;
+		this.userAddress = userAddress;
+		
+		
+		super.registerUser = registerUser;
+		super.deleteUser = deleteUser;
+		super.updateuser = updateUser;
+		
+		
+	}
+	
+}

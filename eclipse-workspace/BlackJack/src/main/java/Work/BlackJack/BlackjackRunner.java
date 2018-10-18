@@ -4,7 +4,7 @@ public class BlackjackRunner {
 	
 	public static void main (String[] args) {
 		
-		Blackjack roundOne = new Blackjack(3,5,5,10);
+		Blackjack roundOne = new Blackjack(3,5,5,17);
 		
 
 		

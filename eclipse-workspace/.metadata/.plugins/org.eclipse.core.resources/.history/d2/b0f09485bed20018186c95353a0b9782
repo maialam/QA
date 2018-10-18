@@ -1,0 +1,30 @@
+package Work.Library;
+
+public class Books extends LibraryItems{
+	
+	private int bookID;
+	private String bookName;
+	private String bookPages;
+	private String author;
+	
+	
+	
+	public Books() {String bookName, int bookID, String bookPages, String
+		
+		this.bookID = bookID;
+		this.bookName = bookName;
+		this.bookPages = bookPages;
+		this.author = author;
+		
+		super.checkOut = checkOut;
+		super.checkIn = checkIn;
+		super.addItem = addItem;
+		super.removeItem = removeItem;
+		super.updateItem = updateItem;
+		
+		
+		
+		
+	}
+
+}

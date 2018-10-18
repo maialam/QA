@@ -1,0 +1,14 @@
+package Work.Library;
+
+public class People extends LibraryPeople {
+	
+	private String userName;
+	private int userID;
+	private String userAddress;
+	
+	
+	
+	
+	
+	
+}

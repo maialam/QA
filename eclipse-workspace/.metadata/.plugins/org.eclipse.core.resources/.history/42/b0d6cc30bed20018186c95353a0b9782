@@ -1,0 +1,26 @@
+package Work.Library;
+
+public class Books extends LibraryItems{
+	
+	private String bookName;
+	private String bookID;
+	private String bookPages;
+	private String author;
+	
+	
+	
+	public Books() {
+		
+		this.bookName = bookName;
+		this.bookID = bookID;
+		this.bookPages = bookPages;
+		this.author = author;
+		
+		super.
+		
+		
+		
+		
+	}
+
+}

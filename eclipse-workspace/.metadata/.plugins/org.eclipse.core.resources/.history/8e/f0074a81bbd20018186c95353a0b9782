@@ -1,0 +1,12 @@
+package Work.Library;
+
+public abstract class LibraryItems {
+	
+	public boolean checkOut;
+	public boolean checkIn;
+	public String addItem;
+	public String removeItem;
+	public String updateItem;
+	
+
+}

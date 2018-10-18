@@ -1,0 +1,10 @@
+package Work.Library;
+
+public abstract class LibraryPeople {
+
+	
+	public String registerUser;
+	public boolean deleteUser;
+	public String updateuser;
+	
+}
