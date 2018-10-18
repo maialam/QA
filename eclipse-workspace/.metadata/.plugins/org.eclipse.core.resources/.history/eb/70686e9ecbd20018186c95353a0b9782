@@ -1,0 +1,42 @@
+package Work.Library;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Library {
+	
+	
+	private List<LibraryItems> newLibrary = new ArrayList <LibraryItems>();
+	
+	public void setlibraryList (LibraryItems a) {
+		
+		
+		newLibrary.add(a);
+		
+		
+	}
+	
+	
+	public libraryItems getlibraryItems(int identity) {
+		
+		
+		if (newLibrary.size() > 0) {
+			
+			for (int i = 0; i < newLibrary.size(); i++) {
+				
+				if (newLibrary.get(i).identity == indentity) {
+					
+					return newLibrary.get(i);
+					
+				}
+				
+			}
+			
+		}
+		
+		
+	}
+	
+	
+
+}

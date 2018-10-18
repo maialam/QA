@@ -1,0 +1,33 @@
+package Work.Library;
+
+public class Books extends LibraryItems{
+	
+	private String bookName;
+	private String author;
+	private String bookPages;
+	
+	
+	
+	public Books(int identity, String bookName, String author, String bookPages, boolean checkOut, boolean checkIn, String addItem, boolean removeItem, String updateItem) {
+		super(identity, checkOut, checkIn, addItem, removeItem, updateItem);
+		
+
+		this.bookName = bookName;
+		this.author = author;
+		this.bookPages = bookPages;
+		
+		super.identity= identity;
+		super.checkOut = checkOut;
+		super.checkIn = checkIn;
+		super.addItem = addItem;
+		super.removeItem = removeItem;
+		super.updateItem = updateItem;
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "ID: " + this.identity + "\n Name: " + this.bookName + "\nAuthor";
+	}n
+
+}

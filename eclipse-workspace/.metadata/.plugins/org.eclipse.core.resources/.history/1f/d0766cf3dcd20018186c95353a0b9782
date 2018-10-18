@@ -1,0 +1,37 @@
+package Work.Library;
+
+public class Media {
+	
+	public class Media extends LibraryItems{
+		
+		private String equipmentName;
+		private String mediaType;
+		private String ;
+		
+		
+		
+		public Books(int identity, String bookName, String author, String bookPages, boolean checkOut, boolean checkIn, String addItem, boolean removeItem, String updateItem) {
+			super(identity, checkOut, checkIn, addItem, removeItem, updateItem);
+			
+
+			this.bookName = bookName;
+			this.author = author;
+			this.bookPages = bookPages;
+			
+			super.identity= identity;
+			super.checkOut = checkOut;
+			super.checkIn = checkIn;
+			super.addItem = addItem;
+			super.removeItem = removeItem;
+			super.updateItem = updateItem;
+			
+		}
+		
+		@Override
+		public String toString() {
+			return "Type: Book \n" + "ID: " + this.identity + "\nName: " + this.bookName + "\nAuthor: " + this.author;
+		}
+
+	}
+
+}

@@ -25,7 +25,6 @@ public class Car extends Vehicle {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Type: Car \n" + "Manufacturer: " + this.manufacturer + "\nWheels: " + this.wheels + "\nColour: " + this.colour + "\nDoors: " + 
 		this.doors + "\nMilage: " + this.mileage + "\nPedals: " + this.pedals + "\nModified: " + this.modified + "\nDamaged: " + this.damaged;
 	}

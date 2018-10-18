@@ -1,0 +1,33 @@
+package Work.Library;
+
+import Work.Library.Books;
+
+public class Runner {
+	
+	public static void main (String[] args) {
+		
+		
+		
+		Books b1 = new Books(1, "Harry Potter", "J.K. Rowling", "514", true, false, "", false, "");
+		Books b2 = new Books(2, "Haunted", "Chuck Palanuik", "255", true, false, "", false, "");
+		
+		
+		Media m1 = new Media(5, "Sony DX310", "Camera", false, false, "", false, "");
+
+		
+		
+		Library newLibrary = new Library();
+		
+		newLibrary.setlibraryItems(b1);
+		newLibrary.setlibraryItems(b2);
+		
+		
+		
+		System.out.println(newLibrary.getlibraryItems(2));
+		
+		
+		
+	}
+
+
+}

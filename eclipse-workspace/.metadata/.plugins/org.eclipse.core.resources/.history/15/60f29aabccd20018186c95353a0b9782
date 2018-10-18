@@ -1,0 +1,21 @@
+package Work.Library;
+
+import Work.Garage.Car;
+
+public class Runner {
+	
+	public static void main (String[] args) {
+		
+		
+		
+		Car c1 = new Car("Ford", 4, "Black", 5, 12000, 3, false, true);
+
+		
+		
+		
+		
+		
+	}
+
+
+}

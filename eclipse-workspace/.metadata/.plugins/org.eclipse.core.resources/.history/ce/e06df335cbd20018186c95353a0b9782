@@ -1,0 +1,30 @@
+package Work.Library;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Library {
+	
+	
+	private List<LibraryItems> newLibrary = new ArrayList <LibraryItems>();
+	
+	public void setlibraryList (LibraryItems a) {
+		
+		
+		newLibrary.add(a);
+		
+		
+	}
+	
+	
+	public libraryItems getItems(int identity) {
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

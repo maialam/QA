@@ -7,12 +7,14 @@ public abstract class LibraryItems {
 	public String addItem;
 	public boolean removeItem;
 	public String updateItem;
+	public int identity;
 	
 
 	
-	public LibraryItems (boolean checkOut, boolean checkIn, String addItem, boolean removeItem, String updateItem) {
+	public LibraryItems (int identity, boolean checkOut, boolean checkIn, String addItem, boolean removeItem, String updateItem) {
 		
 		
+		this.identity = identity;
 		this.checkOut = checkOut;
 		this.checkIn = checkIn;
 		this.addItem = addItem;

@@ -1,0 +1,28 @@
+package Work.Library;
+
+import Work.Library.Books;
+
+public class Runner {
+	
+	public static void main (String[] args) {
+		
+		
+		
+		Books b1 = new Books(1, "Harry Potter", "J.K. Rowling", "514", true, false, "", false, "");
+		
+		
+		
+		Library newLibrary = new Library();
+		
+		newLibrary.setlibraryList(b1);
+		
+		
+		
+		System.out.println(newLibrary.("Harry Potter"));
+		
+		
+		
+	}
+
+
+}
