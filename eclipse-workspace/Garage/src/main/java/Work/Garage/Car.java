@@ -8,7 +8,7 @@ public class Car extends Vehicle {
 	
 	
 	public Car(String manufacturer, int wheels, String colour, int doors, int mileage, int pedals, boolean modified, boolean damaged) {
-		super(wheels, colour, doors);
+		super(manufacturer, wheels, colour, doors, modified, damaged);
 
 	this.mileage = mileage;
 	this.pedals = pedals;
@@ -27,7 +27,7 @@ public class Car extends Vehicle {
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "Type: Car \n" + "Manufacturer: " + this.manufacturer + "\nWheels: " + this.wheels + "\nColour: " + this.colour + "\nDoors: " + 
-		this.doors + "\nModified: " + this.modified + "\nDamaged: " + this.damaged;
+		this.doors + "\nMilage: " + this.mileage + "\nPedals: " + this.pedals + "\nModified: " + this.modified + "\nDamaged: " + this.damaged;
 	}
 	
 

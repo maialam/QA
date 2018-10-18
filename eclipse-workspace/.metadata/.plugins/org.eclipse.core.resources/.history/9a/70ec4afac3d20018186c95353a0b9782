@@ -1,0 +1,10 @@
+package Work.Library;
+
+
+public class Library {
+	
+	
+	private List<LibraryItems> newLibrary = new ArrayList <LibraryItems>();
+	
+
+}

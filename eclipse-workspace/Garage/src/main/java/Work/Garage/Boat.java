@@ -8,7 +8,7 @@ public class Boat extends Vehicle {
 	
 	
 	public Boat(String manufacturer, int wheels, String colour, int doors, boolean sail, int engines, boolean modified, boolean damaged) {
-		super(wheels, colour, doors);
+		super(manufacturer, wheels, colour, doors, modified, damaged);
 
 	this.sail = sail;
 	this.engines = engines;

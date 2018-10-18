@@ -9,7 +9,7 @@ public class Plane extends Vehicle {
 	
 	
 	public Plane(String manufacturer, int wheels, String colour, int doors, int seats, String commercial, boolean modified, boolean damaged) {
-		super(wheels, colour, doors);
+		super(manufacturer, wheels, colour, doors, modified, damaged);
 
 	this.commercial = commercial;
 	this.seats = seats;

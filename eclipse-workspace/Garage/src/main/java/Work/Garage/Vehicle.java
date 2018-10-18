@@ -13,7 +13,7 @@ public abstract class Vehicle {
 	
 
 
-	public Vehicle (int wheels, String colour, int doors) {
+	public Vehicle (String manufacturer, int wheels, String colour, int doors, boolean modified, boolean damaged) {
 	
 	
 		this.wheels = wheels;
@@ -21,6 +21,7 @@ public abstract class Vehicle {
 		this.doors = doors;
 		this.modified = modified;
 		this.damaged = damaged;
+		this.manufacturer = manufacturer;
 	
 		
 		
